@@ -32,6 +32,7 @@ public class utama extends javax.swing.JFrame {
         desktopPane = new javax.swing.JDesktopPane();
         menuBar = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
+        jMenu2 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -42,6 +43,9 @@ public class utama extends javax.swing.JFrame {
             }
         });
         menuBar.add(jMenu1);
+
+        jMenu2.setText("petugas");
+        menuBar.add(jMenu2);
 
         setJMenuBar(menuBar);
 
@@ -105,6 +109,7 @@ public class utama extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JDesktopPane desktopPane;
     private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar menuBar;
     // End of variables declaration//GEN-END:variables
 

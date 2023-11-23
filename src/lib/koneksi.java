@@ -41,4 +41,8 @@ public class koneksi {
      } catch (Exception j) {
          return false;     }
  }
+
+    public ResultSet ambilData(String sql) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
